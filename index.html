@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interno</title>
-    <link rel="stylesheet" href="style.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -48,14 +56,15 @@
 
 
             <!--DIV-->
-            <div class="w-30 container-1000">
+            <div class="container-1000">
 
 
-                <h1 class="mb-32">Rendez votre<br> maison unique</h1>
+                <h1 class="mb-32 ">Rendez votre<br> maison unique</h1>
 
-                <p class="mb-32">Nous croyons que chaque espace a le potentiel d'être<br> exceptionnel.</p>
+                <p class="mb-32 font-syze-22">Nous croyons que chaque espace a le potentiel d'être<br> exceptionnel.</p>
 
-                <a class="bouton1" href="">Construisons votre projet</a>
+                <a class="bouton1" href="">Construisons votre projet <i class="ph ph-arrow-right fleche-color"></i> </a>
+
 
             </div>
 
@@ -119,9 +128,9 @@
         ---------------->
         <section>
 
-            <div class="flex align-center flex-direction container-1000">
+            <div class="flex align-center container-1000">
 
-                <img class="radius w-50" src="asset/assets/image-article.jpg" alt="photo de cuisine">
+
 
                 <div class="w-50">
 
@@ -153,6 +162,7 @@
                     <a class="bouton1" href="">Obtenez un devis gratuit</a>
 
                 </div>
+                <img class="radius w-50" src="asset/assets/image-article.jpg" alt="photo de cuisine">
             </div>
 
 
@@ -164,36 +174,39 @@
         <!--------------
             SECTION 4
         ---------------->
-        <section class="flex bg-beige justify-center column">
-            
-            
-           
+        <section class="bg-beige mt-128 mb-128 pb-32 pt-32">
 
-                <h2>Ils nous ont fait confiance</h2>
-            
-            
-            
+
+
+
+            <h2 class="text-center mt-32 mb-32 text-black">Ils nous ont fait confiance</h2>
+
+
+
             <!--DIV PARENT-->
-            <div class="flex space-around">
-                
-                
-               
-                    <!--NATTASHA-->
-                <div class="w-30 column card">
+            <div class="flex container-1000 space-between mt-64 mb-64">
 
-                        <!--DIV IMG+TEXTE-->
-                        <div >
 
-                            <img src="asset/assets/user3.png" alt="photo d'une fille">
 
-                            <!--DIV TEXTE-->
+                <!--NATTASHA-->
+                <div class="card flex flex-direction align-center">
 
+                    <!--DIV IMG+TEXTE-->
+                    <div class="flex align-center gap-16 pt-32 pb-32">
+
+
+                        <img src="asset/assets/user3.png" alt="photo d'une fille">
+
+                        <!--DIV TEXTE-->
+
+                        <div>
                             <h4>Nattasha Mith</h4>
                             <h5>Lyon</h5>
-
+                        </div>
                     </div>
 
-                    <p>J'ai eu le plaisir de travailler<br> avec Interno sur la rénovation<br> complète de ma maison, et je<br> suis
+                    <p class="pb-32">J'ai eu le plaisir de travailler<br> avec Interno sur la rénovation<br> complète de
+                        ma maison, et je<br> suis
                         extrêmement satisfaite du<br> résultat !</p>
 
                 </div>
@@ -201,10 +214,10 @@
 
 
                 <!--MARY-->
-                <div class="w-30 column card">
+                <div class="card flex flex-direction align-center">
 
                     <!--DIV IMG+TEXTE-->
-                    <div>
+                    <div class="flex align-center gap-16 pt-32 pb-32">
 
                         <img src="asset/assets/user2.png" alt="photo d'une fille">
 
@@ -218,7 +231,8 @@
 
                     </div>
 
-                    <p>Nous avons fait appel à leur<br> équipe pour concevoir<br> l'intérieur de notre nouveau<br> bureau, et le
+                    <p>Nous avons fait appel à leur<br> équipe pour concevoir<br> l'intérieur de notre nouveau<br>
+                        bureau, et le
                         résultat est<br> incroyable.</p>
 
                 </div>
@@ -226,22 +240,24 @@
 
 
                 <!--BENNY-->
-                <div class="w-30 column card">
+                <div class="card flex flex-direction align-center">
 
                     <!--DIV IMG+TEXTE-->
-                    <div>
+                    <div class="flex align-center gap-16 pt-32 pb-32">
 
                         <img src="asset/assets/user1.png" alt="">
 
-                        <h4>Benny Roll</h4>
-                        <h5>Paris</h5>
-
+                        <div>
+                            <h4>Benny Roll</h4>
+                            <h5>Paris</h5>
+                        </div>
                     </div>
 
-               
 
-                    <p>Une expérience formidable !<br> Une équipe de designers<br> talentueuse mais également<br> très à l'écoute des
-                    besoins du<br> client.</p>
+
+                    <p>Une expérience formidable !<br> Une équipe de designers<br> talentueuse mais également<br> très à
+                        l'écoute des
+                        besoins du<br> client.</p>
                 </div>
 
 
@@ -256,7 +272,7 @@
         <!-------------
             SECTION 5
         -------------->
-        <section>
+        <section class="flex space-between align-center container-1000">
 
             <img src="asset/assets/moderne-home.png" alt="">
 
@@ -274,24 +290,24 @@
         <!--------------
             SECTION 6
         --------------->
-        <section>
+        <section class="container-1000">
 
             <!--DIV h2+p-->
-            <div>
+            <div class="text-center mb-64 mt-128">
 
-                <h2>Nos projets</h2>
+                <h2 class="text-black">Nos projets</h2>
 
                 <p>Explorez notre portfolio pour découvrir l’univers interno.</p>
 
             </div>
 
             <!--DIV PARENT-->
-            <div>
+            <div class="flex gap-32 mb-128">
 
                 <!--CUISINE-->
-                <div>
+                <div class="largeur-card flex space-between">
 
-                    <img src="asset/assets/cuisine.jpg" alt="photo cuisine">
+                    <img class="img-100 mb-16" src="asset/assets/cuisine.jpg" alt="photo cuisine">
 
                     <!--DIV h3+p-->
                     <div>
@@ -302,15 +318,16 @@
                     </div>
 
                     <!--petite fleche cliquable-->
-                    <a href=""></a>
-
+                        
+                        <a class="btn-rond flex align-center justify-center" href=""><i class="ph ph-caret-right"></i></a>
+                    
                 </div>
 
 
                 <!--ENTREE ET GARAGE-->
-                <div>
+                <div class="largeur-card flex space-between">
 
-                    <img src="asset/assets/entree-et-garage.jpg" alt="photo entrée garage">
+                    <img class="img-100 mb-16" src="asset/assets/entree-et-garage.jpg" alt="photo entrée garage">
 
                     <!--DIV h3+p-->
                     <div>
@@ -321,14 +338,14 @@
                     </div>
 
                     <!--petite fleche cliquable-->
-                    <a href=""></a>
+                    <a class="btn-rond flex align-center justify-center" href=""><i class="ph ph-caret-right"></i></a>
 
                 </div>
 
                 <!--BUREAU ET CHAMBRE-->
-                <div>
+                <div class="largeur-card flex space-between">
 
-                    <img src="asset/assets/bureau-et-chambre.jpg" alt="photo bureau et chambre">
+                    <img class="img-100 mb-16" src="asset/assets/bureau-et-chambre.jpg" alt="photo bureau et chambre">
 
                     <!--DIV h3+p-->
                     <div>
@@ -339,15 +356,15 @@
                     </div>
 
                     <!--petite fleche cliquable-->
-                    <a href=""></a>
+                     <a class="btn-rond flex align-center justify-center" href=""><i class="ph ph-caret-right"></i></a>
 
                 </div>
 
 
                 <!--CABINET ET SALON-->
-                <div>
+                <div class="largeur-card flex space-between">
 
-                    <img src="asset/assets/cabinet-et-salon.jpg" alt="photo cabinet et salon">
+                    <img class="img-100 mb-16" src="asset/assets/cabinet-et-salon.jpg" alt="photo cabinet et salon">
 
                     <!--DIV h3+p-->
                     <div>
@@ -358,8 +375,7 @@
                     </div>
 
                     <!--petite fleche cliquable-->
-                    <a href=""></a>
-
+                     <a class="btn-rond flex align-center justify-center" href=""><i class="ph ph-caret-right"></i></a>
                 </div>
 
             </div>
@@ -370,13 +386,13 @@
         <!---------------
             SECTION 7
         ----------------->
-        <section class="bg-">
+        <section class="bg-black">
 
-            <div>
+            <div class="column">
 
-                <h2>Rejoignez la communauté interno</h2>
+                <h2 class="text-white pt-32 mb-16">Rejoignez la communauté interno</h2>
 
-                <input type="text">
+                <input class="mb-32 radius-5" type="text">
 
             </div>
 
@@ -384,35 +400,28 @@
 
     </main>
     <!--FOOTER-->
-    <footer>
+    <footer class="mt-128">
 
         <!--DIV PARENT-->
-        <div>
+        <div class="flex flex-start gap-32 container-1000">
 
             <!--DIV LOGO-->
 
             <div>
 
-                <img src="asset/assets/Logo.png" alt="logo interno">
+                <img class="mb-32" src="asset/assets/Logo.png" alt="logo interno">
 
-                <p>Prêt à tout changer ? Contactez-nous dès aujourd'hui pour planifier un rendez-vous !</p>
+                <p class="mb-32">Prêt à tout changer ? Contactez-nous dès<br> aujourd'hui pour planifier un
+                    rendez-<br>vous !</p>
 
-                <nav>
-                    <a href="">
-                        <img src="asset/assets/facebook.png" alt="Facebook">
-                    </a>
+                <nav class="flex gap-32">
+                    <a href=""><i class="ph-fill ph-facebook-logo"></i></a>
 
-                    <a href="">
-                        <img src="asset/assets/twitter.png" alt="Twitter">
-                    </a>
+                    <a href=""><i class="ph-fill ph-twitter-logo"></i></a>
 
-                    <a href="">
-                        <img src="asset/assets/linkedin.png" alt="LinkedIn">
-                    </a>
+                    <a href=""><i class="ph-fill ph-linkedin-logo"></i></a>
 
-                    <a href="">
-                        <img src="asset/assets/insta.png" alt="Instagram">
-                    </a>
+                    <a href=""><i class="ph-fill ph-instagram-logo"></i></a>
                 </nav>
 
             </div>
@@ -421,12 +430,12 @@
             <!--DIV CONTACT-->
             <div>
 
-                <h3>Contact</h3>
+                <h3 class="mb-32">Contact</h3>
 
-                <p>55 rue des coquelicots</p>
-                <p>69000 LYON</p>
+                <p class="mb-32">55 rue des coquelicots</p>
+                <p class="mb-32">69000 LYON</p>
 
-                <p>contact@interno.com</p>
+                <p class="mb-32">contact@interno.com</p>
 
                 <p>04567890</p>
 
@@ -434,9 +443,10 @@
             </div>
 
 
-            <p>Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
 
         </div>
+
+        <p class="text-center mt-128">Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
 
     </footer>
 
